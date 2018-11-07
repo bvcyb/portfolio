@@ -1,0 +1,31 @@
+.header {
+    background-image: url(p_header.JPG);
+    /*background-color: #F1F1F1;*/
+    text-align: center;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    color: #ddd;
+}
+        /* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(211, 152, 152);
+    width: 100%;
+}
+
+/* Navbar links */
+.topnav a , li{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
